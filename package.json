@@ -4,8 +4,8 @@
   "description": "",
   "main": "lighthouserc-ci.js",
   "scripts": {
-    "start": "http-server src",
-    "start:ci": "npm run build && http-server dist"
+    "start": "http-server src"
+    
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,8 @@
   "homepage": "https://github.com/nicobytes/codelab-lighthouse-ci#readme",
   "dependencies": {
     "http-server": "^0.12.3"
+  },
+  "devDependencies": {
+    "lighthouse-plugin-field-performance": "^3.0.0"
   }
 }
