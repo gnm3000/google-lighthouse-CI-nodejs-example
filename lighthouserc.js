@@ -4,8 +4,11 @@ module.exports = {
         url: ['http://localhost:8080/'],
         startServerCommand: 'npm start',
         },
-      upload: {
+    upload: {
         target: 'temporary-public-storage',
       },
+    assert: {
+        preset: 'lighthouse:recommended'
+    }
     },
   };
